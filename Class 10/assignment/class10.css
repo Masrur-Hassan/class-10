@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.banner button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* common tag */
+section {
+    overflow: hidden;
+    margin: 0 0 110px 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    background: #071422;
+}
+
+header {
+
+    background-image: url(./image/dawn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    background-blend-mode: luminosity;
+    background-color: #2d7793;
+    margin: 0 0 110px 0;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+li {}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+/* menu section */
+.container {
+    width: 1400px;
+    margin: 0 auto;
+
+
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+nav {
+    width: 80%;
+    float: right;
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 19px 60px 0 0;
+    font-size: 18px;
+    font-weight: 800;
+
+}
+
+nav ul li a {}
+
+/* header banner section */
+.banner {
+    padding: 172px 0 65px;
+    text-align: center;
+    display: block;
+}
+
+.banner span {
+    background-color: red;
+    width: 100px;
+    height: 5px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.banner h1 {
+    padding: 20px 0px 14px;
+    font-size: 50px;
+    letter-spacing: 7px;
+}
+
+.banner h3 {
+    font-size: 27px;
+    font-style: italic;
+}
+
+/* upcoming section
+ */
+
+.upcoming-section h2 {
+    padding: 20px 0px 14px;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.upcoming-section span {
+    background-color: red;
+    width: 130px;
+    height: 5px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/* <!-- First two row --> */
+.col1 {
+    margin-top: 100px;
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+
+.col1 img {
+
+    height: 350px;
+    border-radius: 60px 0;
+    box-shadow: #ffffff77 0px 13px 27px -5px,
+        #ffffff5d 0px 8px 16px -8px;
+    background-repeat: no-repeat;
+
+    object-fit: cover;
+
+}
+
+.col1 h4 {
+    font-size: 30px;
+    margin: 25px 0 18px 0;
+    color: red;
+}
+
+.col1 p {
+    margin-bottom: 15px;
+    font-size: 18px;
+    margin: 0 13%;
+}
+
+.col1 a {
+    font-size: 19px;
+    letter-spacing: 5px;
+    color: #ff000067;
+}
+
+/* <!-- explore the world section --> */
+.explorer {
+    background-image: url(./image/father.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    background-blend-mode: multiply;
+    background-color: #0c535e73;
+}
+
+.world {
+    margin: 0 0 0 45%;
+}
+
+
+.world h1 {
+    padding: 20px 0px 14px;
+    font-size: 124px;
+    letter-spacing: 11px;
+}
+
+.world p {
+    font-size: 19px;
+    margin: 25px 0 18px 0;
+    color: #ffffff;
+}
+
+.world span {
+    background-color: red;
+    width: 100px;
+    height: 5px;
+    display: block;
+    margin-top: 10px;
+}
+
+.world a {
+    font-size: 19px;
+    letter-spacing: 5px;
+    color: #ffffff;
+}
+
+/* <!-- section for some photos --> */
+.upcoming-tour {}
+
+.destination {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.col2 {
+    width: 33%;
+}
+
+.col2 h2 {
+    padding: 0px 92px 16px 0px;
+}
+
+.col2 span {
+
+    background-color: red;
+
+    width: 100px;
+
+    height: 5px;
+
+    display: block;
+
+    margin-top: 10px;
+}
+
+.col2 a {
+    font-size: 19px;
+    letter-spacing: 5px;
+    color: #ffffff;
+}
+
+.col2 p {
+    font-size: 19px;
+    margin: 25px 0 18px 0;
+    color: #ffffff;
+}
+
+.col2 img {
+    object-fit: cover;
+    width: 390px;
+    margin: 15px 0 0 0;
+}
+
+.small {
+    height: 290px;
+}
+
+.big {
+    height: 400px;
+}
+
+/* footer section  */
+
+footer {
+    background-color: #ff00004f;
+    padding: 60px 0px;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: bolder;
+}
